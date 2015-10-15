@@ -1,0 +1,16 @@
+<div class="row">
+            <div class="col-xs-2"></div>
+            <div class="col-xs-4 columnasinborde">
+                <div class="form-group">
+                    <label for="Cpu">CPU</label>
+                    <input id="Cpu" type="text" name="cpu" class="form-control" required>
+                </div>
+            </div> 
+            <div class="col-xs-4 columnasinborde">
+                <div class="form-group">
+                    <label for="Memoria">Memoria</label>
+                    <input id="Memoria" name="memoria" type="text" class="form-control" required>
+                </div>
+            </div> 
+            <div class="col-xs-2"></div>
+        </div>

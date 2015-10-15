@@ -1,0 +1,29 @@
+.columna {
+	/*background-color: #898012;*/
+        background: -webkit-gradient(linear, center top, center bottom, from(#fff), to(#ccc));
+	background-image: linear-gradient(#fff, #ccc);
+	border: 1px solid #333;
+}
+.columnasinborde {
+	background-color: #a5a5a5;
+	
+}
+ .bottom { position: absolute; text-align: center; width: 100%; bottom: 0px;  }
+IMG.imgcenter{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border:none;
+            }
+.Centrarenpantalla{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: auto;
+      margin-top: auto;
+      border:none;          
+            }
+body {
+	background: url('../img/denim.png');
+	font-family: 'Droid Sans', sans-serif;;
+}

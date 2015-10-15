@@ -1,0 +1,2 @@
+INSERT INTO `CPIAT`.`usuarios` (`id`, `nombre`, `usuario`, `clave`, `rol`) VALUES (NULL, 'Diego Garcia', 'pucho', 'f56c6750f91b3ac21ec6f6b2f7ecba70', 'root');
+
