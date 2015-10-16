@@ -4,10 +4,12 @@
     require ("VistaConsultas.php");
     require ("BD/BDEstados.php");
     require ("BD/BDLocalidades.php");
+    
     $consulta="Select * From personas WHERE ApyNombre Like '%".$QueBusco."%'";
     $arreglo=DevuelvoArrayConsulaPersonas($consulta);
     $long=count($arreglo);
-    ?>
+    
+?>
  <link href="Lista/style.css" rel="stylesheet" type="text/css"/>
 <form role="form" action="VerMatriculaProfesionalNombre2.php" method="POST">
     <TABLE cellpadding="0" cellspacing="0" border="0" id="table" class="sortable">
