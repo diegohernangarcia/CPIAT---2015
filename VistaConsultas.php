@@ -258,7 +258,7 @@ function ConsultaMatriculas($arreglo, $Titulo) {
                 </script>
                 <br>
                 <center>
-                    <a href="menu.html"target="_self"><img src="img/atras.jpg"></a> </th></tr>
+                    <a href="menu.php"target="_self"><img src="img/atras.jpg"></a> </th></tr>
                     </body>		
                     </html>
                     <?php
