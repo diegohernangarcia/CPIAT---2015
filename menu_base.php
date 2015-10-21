@@ -28,6 +28,8 @@
                             <li><a href="MatriculaPorProfesionalDNI.php" target="_self">Consulta Por DNI</a></li>
                             <li><a href="MatriculaPorLocalidad.php" target="_self">Consulta Por Localidad</a></li>
                             <li><a href="MatriculaCategoriaNumeroCircunscripcion.php" target="_self">Consulta Pro Cat.-Num.-Circ.</a></li>
+                            <li><a href="MatriculaPorCircunscripcion.php" target="_self">Por Circunscripcion</a></li> 
+                            
                             <li><a href=".html" target="_self"></a></li>
                             <li><a href=".html" target="_self"></a></li>
                         </ul>

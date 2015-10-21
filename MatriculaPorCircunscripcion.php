@@ -30,24 +30,51 @@
             </div>
         </div>    
         <div class="container">
-            <form role="form" action="VerMatriculaPorProfesionalNombre.php" method="POST">
-<!--                <h1> NO FUNCA PROBAR </h1>-->
+            <form role="form" action="VerMatriculaCircunscripcion.php" method="POST">
                 <div class="row">
                     <div class="col-xs-2">
                     </div>
-                    <div class="col-xs-8 columnasinborde">
+                    <div class="col-xs-4 columnasinborde">
                         <div class="form-group">
-                            <h2>Ingrese Nombre y Apellido a Buscar</h2>
-                            <input id="datoconsulta" name="datoconsulta" type="text" class="form-control" required="">
-                            <br>
-                        </div>
+                            <label for="Circunscripcion">Circunscripcion</label>
+                            <select id="Circunscripcion" name="Circunscripcion" class="form-control">
+                                <?php
+                                require("BD/BDCircunscripciones.php");
+                                DevuelvoArrayCircunscripcion($arregloCircunscripcion);
+                                $longitud = count($arregloCircunscripcion);
+                                for ($i = 0; $i < $longitud; $i++) {
+                                    echo '<option>' . $arregloCircunscripcion[$i] . '</option>';
+                                }
+                                ?>
+
+                            </select>
+                        </div>   
 
                     </div>
+                    <div class="col-xs-4 columnasinborde">
+                       <div class="form-group">
+                            <label for="Estado">Estado</label>
+                            <select id="Estado" name="Estado" class="form-control">
+                                <?php
+                                require("BD/BDEstados.php");
+                                DevuelvoArrayEstados($arregloEstado);
+                                $longitud = count($arregloEstado);
+                                for ($i = 0; $i < $longitud; $i++) {
+                                    echo '<option>' . $arregloEstado[$i] . '</option>';
+                                }
+                                ?>
+
+                            </select>
+
+                    </div>
+                    
                     <div class="col-xs-2"></div>
                 </div>
+<!--                $QueBusco=$_POST["datoconsulta"];-->
         </div> 
         <div class="container">
             <div class="row ">
+<!--                $QueBusco=$_POST["datoconsulta"];-->
                 <div class="col-xs-1"></div>    
                 <div class="col-xs-1">
                 </div>   

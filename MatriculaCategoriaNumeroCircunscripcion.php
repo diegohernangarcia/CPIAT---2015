@@ -79,10 +79,12 @@
                         </div>       
                     </div>
                     <div class="col-xs-2"></div>
-                </div>$QueBusco=$_POST["datoconsulta"];
+                </div>
+<!--                $QueBusco=$_POST["datoconsulta"];-->
         </div> 
         <div class="container">
-            <div class="row ">$QueBusco=$_POST["datoconsulta"];
+            <div class="row ">
+<!--                $QueBusco=$_POST["datoconsulta"];-->
                 <div class="col-xs-1"></div>    
                 <div class="col-xs-1">
                 </div>   

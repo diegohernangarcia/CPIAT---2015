@@ -44,6 +44,7 @@ Function DevuelveIdUniversidad($Universidad) {
 		}
 Function DevuelveUniversidad($universidad) {
 		require("conexion.php");
+                $salida="0";
                  If ($universidad==0){
                     Return "Desconocido";
                     exit;
@@ -54,7 +55,7 @@ Function DevuelveUniversidad($universidad) {
 		$descripcionerror=mysql_error();
 		if ($$numeroerror!=0) {
 			echo ("<br>".$$numeroerror."<br>".$descripcionerror);}
-		$salida=mysql_result ($hacerconsulta,0,"descripcion");
+		$salida=  mysql_result($hacerconsulta,0,"descripcion");
 		Return $salida;
 		}   
                 
