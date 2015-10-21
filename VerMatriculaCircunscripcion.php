@@ -10,6 +10,6 @@
     $consulta="SELECT * FROM matriculas WHERE circunscripcion=".$idCircunscripcion." and estado=".$IdEstado."";
     $arreglo=DevuelvoArrayConsulaMatriculas($consulta);
     ConsultaMatriculas($arreglo,"Por Circunscripcion y Estado");
-    
+    require ("pdf.php");
     
 ?>

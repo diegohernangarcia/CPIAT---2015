@@ -73,7 +73,7 @@ function ConsultaPersonas($arreglo, $Titulo) {
                             } else {
                                 $Seguro2 = "SI";
                             }
-                            $Estado = DevuelveEstado($Estado);
+                            $Estado = DevuelveEstado2($Estado);
                             ?>
                             <tr>
                                 <td><h6><?php echo ($id); ?> </td>
@@ -196,7 +196,7 @@ function ConsultaPersonas($arreglo, $Titulo) {
                                             $tipo = $arreglo[$contador][10];
                                             $universidad = $arreglo[$contador][11];
                                             $categoria = DevuelveCategoria($categoria);
-                                            $Estado = DevuelveEstado($estado);
+                                            $Estado = DevuelveEstado2($estado);
                                             $QueMatricula = $categoria . '-' . $numero . '-' . $circunscripcion;
                                             $QuePersona = DevuelveNombreyAp($id_persona);
                                             $titulo = DevuelveTitulo($titulo);
@@ -256,6 +256,7 @@ function ConsultaPersonas($arreglo, $Titulo) {
                                 <br>
                                 <center>
                                     <a href="menu.php"target="_self"><img src="img/atras.jpg"></a> </th></tr>
+<!--                                    <a href="pdf.php"target="_self"><img src="img/atras.jpg"></a> </th></tr>-->
                                     </body>		
                                     </html>
                                     <?php
